@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device_width, initial_scale=1.0">
+    <title>Mbagathi Study Center</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav>
-            <img src="#" alt="Mbags Logo" class="logo">
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>                
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Activity</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact Us</a></li>                
+        <nav class="navbar">
+            <img src="assets/images/blank.png" alt="Mbags Logo" class="logo" width="50px" height="50px">
+            <ul class="nav_links" >
+                <li><a href="index.html" target="_parent">Home</a></li>                
+                <li><a href="aboutUs.html" target="_self">About Us</a></li>
+                <li><a href="gallery.html" target="_self">Gallery</a></li>
+                <li><a href="activities.html" target="_self">Activity</a></li>
+                <li><a href="contact.html" target="_self">Contact Us</a></li>                
         </nav>
     </header>
-    <main>
+    <main class="container">
         <section class="hero_section">
-            <div class="hero-img">            
-                <img src="#" alt="Intro-img" id="hero-images"  align="center" width="500px" height="300px">              
+            <div class="hero_img">            
+                <img src="assets/images/blank.png" alt="Intro_img" id="hero_images"  align="center" width="100%" height="400px">              
 
             </div>
            
-            <div class="hero-content">
+            <div class="hero_content">
                 <h1 align="center"><b>Welcome to Mbagathi Study Center</b></h1>
                 <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa sequi inventore expedita sit doloribus error minima ab nam minus amet dolorem dignissimos aut assumenda architecto adipisci exercitationem impedit rem asperiores, modi alias ut voluptatem. Doloremque autem libero rem nulla accusamus excepturi optio commodi reprehenderit ullam sed! Voluptatibus, dolor? Expedita.</p>               
             </div>
         </section><br>
 
-        <section class="activity_section" align="right">
-            <div class="activity-image">            
-                <img src="#" alt="Activity-img"   width="500px" height="300px" id="activity-img">    
+        <section class="activity_section" >
+            <div class="activity_image" >            
+                <img src="assets/images/blank.png" alt="Activity_img"   width="300px" height="300px" id="activity_img">    
 
             </div>
-            <div class="activity-content" align="left">
+            <div class="activity_content"  > 
                 <h3>Brief introduction to Mbagathi Study Centre</h3>                
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet a placeat quas magni architecto excepturi error ipsum! Pariatur praesentium velit odio veritatis? Ducimus beatae quae voluptatibus provident rem, est repudiandae temporibus consequuntur eaque eos sit, saepe aperiam molestiae quibusdam commodi.</p>
             </div>
         </section>
+
         <section class="feature_section">
-            <div class="feature-image">            
-                <img src="#" alt="Feature-img" width="100%" height="300px">                
-            </div>
-
-            <div class="feature-content">
+            <div class="feature_content" >
                 <h3 align="center">Featured Upcoming <br>Events</h3>
-            </div>
-        </section><br>
-        
-        <section class="testimonial_section">
-            <div class="testimonial-image" align="right">            
-                <img src="#" alt="Testimonial-img" width="100%" height="300px">
+                <img src="assets/images/blank.png" alt="Feature_img"  class="feature_image" width="100%" height="300px">                
 
             </div>
-            <div class="testimonial-content">
+            
+        </section><br>
+
+        <section class="testimonial_section">
+            <div class="testimonial_image" >            
+                <img src="assets/images/blank.png" alt="Testimonial_img" width="300px" height="300px">
+
+            </div>
+            <div class="testimonial_content">
                 <h3>Testimonials</h3>
                 <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisi rutrum risus auctor finibus ex nascetur facilisis. Parturient consectetur enim maximus tempus adipiscing; dictum ut condimentum. Ullamcorper elit risus ac, dolor molestie odio potenti. Potenti dolor sapien aliquam ridiculus enim quam pulvinar maximus odio.</p>
             </div>
         </section><br>
         <section class="cta_section">
-            <h3 align="center">Join Us Today</h3>
-            <div class="cta-img" align="right">
-                
-                <img src="#" alt="Cta-img" width="100%" height="300px">
-            </div>
-            <div class="cta-form">
+            <h3 align="center">Join Us Today</h3>            
+            <div class="cta_form">
                 <h3>Contact Us</h3>
                 <form action="submit" method="">
-                    <label for="fullname">First Name:</label><br>
-                    <input type="text" id="fullname" name="firstname"><br>
-                    <label for="fullname">Second Name:</label><br>
-                    <input type="text" id="fullname" name="secondname"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="fullname" name="firstname" placeholder="First Name:">
+                    <input type="text" id="fullname" name="secondname" placeholder="Second Name:"><br>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Email:"><br>
+                    <br>
                     <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" placeholder="Any questions or concerns?"  rows="7" cols="40"></textarea><br>
-                    <input type="submit" value="Submit">
+                    <textarea id="message" name="message" placeholder="Any questions or concerns?"  rows="7" cols="45"></textarea><br>
+                    <input type="submit" value="Submit">              
                 </form>
+            </div>
+            <div class="cta-img" align="right">
+                
+                <img src="assets/images/blank.png" alt="Cta-img" width="300px" height="300px">
             </div>
         </section><br>      
     </main>
     
-    <footer class="footer">
-        <p>
-            &copy; 2023 Mbagathi Study Center. All rights reserved.
-            <br>
-        </p>
+    <footer class="footer">        
+        <p>&copy; 2023 Mbagathi Study Center. All rights reserved.</p>
+        <ul class="social_media">
+            <p>Find and Follow us on social media</p>
+            <li><a href="assets/images/blank.png">Facebook</a></li>
+            <li><a href="assets/images/blank.png">Twitter</a></li>
+            <li><a href="assets/images/blank.png">Instagram</a></li>
+        </ul>
+        <a href="assets/images/blank.png">Contact Us</a>
     </footer>
 </body>
 </html>
