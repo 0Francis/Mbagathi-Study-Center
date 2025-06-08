@@ -57,6 +57,7 @@ section {
     height: 400;
     margin-left: 3rem;
     border-radius: 50%; 
+    background-image: url(../images/blank.png);
 }
 
 @media (max-width: 768px) {
