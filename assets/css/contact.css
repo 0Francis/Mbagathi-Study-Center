@@ -1,0 +1,91 @@
+:root{
+    --blaze-orange: #FF5E00;
+    --light-blaze-orange: #FFEEE5;
+    --dark-blaze-orange: #CC4B00;
+    --darker-blaze-orange: #662500;
+    --darkest-blaze-orange: #4C1C00;
+
+    --neutral-light:#D8D8D8;
+    --neutral:#7F7F7F;
+    --neutral-dark:#4C4C4C;
+    --neutral-darker: #191919;
+    --neutral-darkest: #000000;
+   
+}
+
+.partner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.partner-section .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.partner-section .partner-logos img {
+    max-width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.partner-section .partner-logos img:hover {
+    transform: scale(1.2);
+    
+}
+
+.map-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+   
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-right: 1rem;
+    background-color: var(--neutral-light);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--neutral);
+}
+
+.map-container iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 2rem;
+    opacity: 0.7;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 5px 5px 5px var(--neutral-darker);
+}
+.map-container iframe:hover {
+    transform: scale(1.1);
+        opacity: 1;
+    box-shadow: 10px 10px 10px var(--neutral-darkest);
+}
+
+.contact_info p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--neutral-dark);
+    margin-bottom: 0.5rem;
+
+}
+
+ul.contact_details {
+    list-style-type: none;
+    
+}
+
+.contact_details li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--neutral-dark);
+    justify-content: left;
+}
