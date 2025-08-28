@@ -1,0 +1,36 @@
+:root{
+    --blaze-orange: #FF5E00;
+    --light-blaze-orange: #FFEEE5;
+    --dark-blaze-orange: #CC4B00;
+    --darker-blaze-orange: #662500;
+    --darkest-blaze-orange: #4C1C00;
+
+    --neutral-light:#D8D8D8;
+    --neutral:#7F7F7F;
+    --neutral-dark:#4C4C4C;
+    --neutral-darker: #191919;
+    --neutral-darkest: #000000;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    
+}
+
+header, footer {
+    
+    position: sticky;
+}   
+header {
+    top: 0;
+    z-index: 1000;
+}
+footer {
+    bottom: 0;
+    z-index: 1000;
+}

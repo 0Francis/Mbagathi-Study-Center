@@ -83,7 +83,9 @@
 
 .feature_section {
     padding: 0 2rem;    
-    background-image: url('../images/blank.png');
+    background-image: url('../images/WhatsApp\ Image\ 2025-06-28\ at\ 19.20.04_8a9c9277.jpg');
+    background-size:cover;
+    background-position: center;
     height: 50vh;
 }
 
